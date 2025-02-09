@@ -14,7 +14,6 @@ export class TradeDtoNew {
       block_timestamp: trade[count_trade].attributes.block_timestamp,
       token_address: token_address,
     };
-
     return data;
   }
 }
